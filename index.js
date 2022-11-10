@@ -65,7 +65,7 @@ run().catch(err => console.error(err))
 
 
 app.get('/', (req, res) => {
-    res.send('Photography server is Running')
+    res.send('server is Running')
 })
 app.listen(port, () => {
     console.log(`server Running on ${port}`);
